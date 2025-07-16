@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(246, 228, 194);
+    font-size: large;
+    height: 73px;
+    width: 100%;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.nav-bar ul li:hover {
+    color: red;
+}
+
+.dis {
+    width: 540px;
+    font-size: large;
+}
+
+.dis h1 {
+    padding-bottom: 10px;
+}
+
+.dis p {
+    line-height: 1.5;
+}
+
+.dis .join-us {
+    margin-top: 22px;
+    background-color: red;
+    color: white;
+    font-size: large;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sm {
+    padding-top: 23px;
+}
+
+.sm ul {
+    display: flex;
+    list-style: none;
+}
+
+.sm ul li img {
+    height: 25px;
+    padding: 10px;
+}
+
+
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(3, 220px);
+    justify-content: center;
+    gap: 100px;
+}
+
+.box {
+    background-color: whitesmoke;
+    height: 180px;
+    width: 360px;
+    object-fit: cover;
+}
+.box img {
+    padding-bottom: 10px;
+    transition: transform ease 0.5s;
+}
+.box img:hover {
+    transform: scale(1.05);
+}
+.box p {
+    color: aliceblue;
+    display: inline;
+    padding: 3px;
+    background-color: red;
+}
+.box h2 {
+    padding-top: 10px;
+    transition: ease 0.2s;
+    cursor: pointer;
+}
+.box:hover {
+    color: rgb(107, 16, 193);
+}
+
+.main-grid {
+    padding-bottom: 120px;
+}
+.foot-nav {
+    background-color: black;
+    height: 300px;
+    width: 100%;
+}
+.foot-nav img {
+    height: 77px;
+    width: 170px;
+}
+.home {
+    color: aliceblue;
+}
+.home ul {
+    display: flex;
+    list-style: none;
+}
+.home ul li {
+    padding: 10px;
+}
+
+.foot-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
