@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My Portfolio</title>
+
+  <!-- External CSS files should go inside <head> -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg shadow-lg py-3 colorCSS sticky-top">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img src="images/cv.png" alt="Logo" style="height: 50px ;">
+      </a>
+
+      <!-- Toggler for mobile view -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 sizeCng">
+          <li class="nav-item px-2">
+            <a href="#home" class="nav-link active" aria-current="page" style="color: white;" href="#">Home</a>
+          </li>
+          <li class="nav-item px-2 mx-3">
+            <a href="#skills" class="nav-link active " style="color: white;" href="#">Skills</a>
+          </li>
+          <li class="nav-item px-2 mx-3">
+            <a href="#education" class="nav-link active" style="color: white;" href="#">Education</a>
+          </li>
+          <li class="nav-item px-2 mx-3">
+            <a href="#projects" class="nav-link active" style="color: white;" href="#">Project</a>
+          </li>
+          <li class="nav-item px-2 mx-3">
+            <a href="#contact" class="nav-link active" style="color: white;" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div id="home" class="row" style="min-height: 100vh;"> <!-- Full screen height -->
+
+      <!-- Left Side: Image -->
+      <!-- Left Side: Image -->
+      <div class="col-md-6 p-3 py-3 imgEdit">
+        <img src="images/white.jpg" class="img-fluid w-100" alt="Uday's Image">
+      </div>
+
+      <!-- Right Side: Text -->
+      <div class="col-md-6 d-flex align-items-center justify-content-center text-section">
+        <div class="text-center textcng">
+          <h1 data-aos="fade-up"><strong style="color: white;">Hi, I'm Uday</strong></h1>
+          <h3 class="mb-3 text-primary">Aspiring Software Developer</h3>
+          <p data-aos="fade-right" data-aos-delay="200" style="color: white;">
+            I build user-friendly web apps and solve problems with code.<br>
+            Passionate about development, design, and continuous learning.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Skills Section -->
+  <div class="container-fluid py-4" style="background-color: #0b1f38;">
+    <div id="skills" class="container" style="max-width: 1140px;">
+
+      <!-- SKILLS Heading -->
+      <div class="row mb-3">
+        <div class="col-12 d-flex justify-content-center">
+          <h1><strong class="edu">SKILLS</strong></h1>
+        </div>
+      </div>
+
+      <!-- USING NOW Heading -->
+      <div class="row mb-2">
+        <div class="col-12">
+          <h2 class="text-white text-center fw-bold">USING NOW</h2>
+        </div>
+      </div>
+
+      <!-- USING NOW Icons -->
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-lg-3 col-sm-6 col-6 d-flex flex-column align-items-center mb-4">
+          <img src="images/html.svg" class="skills-icon" alt="HTML">
+          <p class="text-white mt-2">HTML</p>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-6 d-flex flex-column align-items-center mb-4">
+          <img src="images/css.svg" class="skills-icon" alt="CSS">
+          <p class="text-white mt-2">CSS</p>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-6 d-flex flex-column align-items-center mb-4">
+          <img src="images/js.svg" class="skills-icon" alt="JS">
+          <p class="text-white mt-2">JS</p>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-6 d-flex flex-column align-items-center mb-4">
+          <img src="images/bootstrap.png" class="skills-icon" alt="Bootstrap">
+          <p class="text-white mt-2">BOOTSTRAP</p>
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-lg-3 col-sm-6 col-6 d-flex flex-column align-items-center mb-4">
+          <img src="images/java.png" class="skills-icon" alt="Java">
+          <p class="text-white mt-2">JAVA</p>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-6 d-flex flex-column align-items-center mb-4">
+          <img src="images/figma.png" class="skills-icon" alt="Figma">
+          <p class="text-white mt-2">Figma</p>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-6 d-flex flex-column align-items-center mb-4">
+          <img src="images/java.png" class="skills-icon" alt="Java">
+          <p class="text-white mt-2">JAVA</p>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-6 d-flex flex-column align-items-center mb-4">
+          <img src="images/figma.png" class="skills-icon" alt="Figma">
+          <p class="text-white mt-2">Figma</p>
+        </div>
+      </div>
+
+      <!-- LEARNING Heading -->
+      <div class="row mb-2">
+        <div class="col-12">
+          <h2 class="text-white text-center fw-bold">LEARNING</h2>
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-lg-4 col-sm-6 d-flex flex-column align-items-center mb-4">
+          <img src="images/python.png" class="skills-icon" alt="Python">
+          <p class="text-white mt-2">PYTHON</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 d-flex flex-column align-items-center mb-4">
+          <img src="images/mySql.svg" class="skills-icon" alt="SQL">
+          <p class="text-white mt-2">SQL</p>
+        </div>
+        <div class="col-lg-4 col-sm-6 d-flex flex-column align-items-center mb-4">
+          <img src="images/dsa.png" class="skills-icon" alt="DSA">
+          <p class="text-white mt-2">DSA</p>
+        </div>
+      </div>
+
+      <!-- OTHER SKILLS Heading -->
+      <div class="row mb-2">
+        <div class="col-12">
+          <h2 class="text-white text-center fw-bold">OTHER SKILLS</h2>
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-lg-3 col-sm-6 col-6 d-flex flex-column align-items-center mb-4">
+          <img src="images/commSkill.png" class="skills-icon" alt="Communication">
+          <h5 class="text-white mt-2 text-center">Communication</h5>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-6 d-flex flex-column align-items-center mb-4">
+          <img src="images/present.png" class="skills-icon" alt="Presentation">
+          <h5 class="text-white mt-2 text-center">Presentation</h5>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-6 d-flex flex-column align-items-center mb-4">
+          <img src="images/Problem.png" class="skills-icon" alt="Problem Solving">
+          <h5 class="text-white mt-2 text-center">Problem Solving</h5>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-6 d-flex flex-column align-items-center mb-4">
+          <img src="images/leadership.png" class="skills-icon" alt="Leadership">
+          <h5 class="text-white mt-2 text-center">Leadership</h5>
+        </div>
+      </div>
+
+    </div> <!-- End container -->
+  </div> <!-- End container-fluid -->
+
+
+
+  <div class="container-fluid p-3">
+    <div id="education" class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 text-center p-3">
+          <h1 class="edu">EDUCATION</h1>
+          <p class="text-white">My academic background and qualifications</p>
+        </div>
+        <div class="col-10 py-3 edu-card">
+          <h3 class="education">🎓 Class 10th (CBSE)</h3>
+          <h3 class="education">School: K.L. Arya DAV Public School, Hisar</h3>
+          <h3 class="education">Year: 2020</h3>
+          <h3 class="education">Percentage: 70%</h3>
+        </div>
+        <div class="col-10 py-3 edu-card">
+          <h3 class="education">🎓 Class 12th (CBSE)</h3>
+          <h3 class="education">School: K.L. Arya DAV Public School, Hisar</h3>
+          <h3 class="education">Year: 2022</h3>
+          <h3 class="education">Percentage: 75.8%</h3>
+        </div>
+        <div class="col-10 py-3 edu-card">
+          <h3 class="education">
+            🎓 Bachelor of Computer Applications (BCA)
+          </h3>
+          <h3 class="education">College: Maharshi Dayanand University - Rohtak
+          </h3>
+          <h3 class="education">Year: 2025 </h3>
+          <h3 class="education">Percentage: 77.6%</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid" style="background-color: #0b1f38;">
+    <div class="container">
+      <div id="projects" class="row text-center">
+        <div class="col-12 text-center py-3">
+          <h1><strong style="color: white;">What I’ve Built</strong></h1>
+          <p class="text-white">Here are some of the projects I’ve built to sharpen my skills in web development and
+            problem-solving.</p>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12">
+          <div>
+            <img src="images/stopwatch.jpg" class="img-fluid project-img" alt="">
+            <p class="text-white"><strong>Stopwatch</strong></p>
+            <p class="text-white">A functional stopwatch built using HTML, CSS, and JavaScript that features start,
+              stop, and reset capabilities for time tracking.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12">
+          <div>
+            <img src="images/atm.jpg" class="img-fluid project-img" alt="">
+            <p class="text-white"><strong>ATM Interface</strong></p>
+            <p class="text-white">A console-based ATM interface built in Java that simulates basic banking operations
+              like withdrawal, deposit, balance inquiry, and PIN authentication.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12">
+          <div>
+            <img src="images/websiteClone.jpg" class="img-fluid project-img" alt="">
+            <p class="text-white"><strong>Website Clone</strong></p>
+
+            <p class="text-white">A responsive clone of a popular website built using HTML, CSS, and Bootstrap to
+              practice layout design, responsiveness, and UI components.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12">
+          <div>
+            <img src="images/Netflix.jpg" class="img-fluid project-img" alt="">
+            <p class="text-white"><strong>Netflix Clone</strong></p>
+            <p class="text-white">A responsive Netflix homepage clone built using HTML, CSS, and Bootstrap, replicating
+              the layout, design, and user interface for front-end practice</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12">
+          <div>
+            <img src="images/currency.jpg" class="img-fluid project-img curr" alt="">
+            <p class="text-white"><strong>Currency Converter</strong></p>
+            <p class="text-white">A simple currency converter web app that allows users to convert between major
+              international currencies
+              in real-time using exchange rate APIs.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12">
+          <div>
+            <img src="images/tic-tac-toe.jpg" class="img-fluid project-img curr" alt="">
+            <p class="text-white"><strong>Tic-Tac-Toe</strong></p>
+            <p class="text-white">A simple Tic Tac Toe game built using HTML, CSS, and JavaScript, allowing two players
+              to play turn-by-turn with real-time win/draw detection</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid">
+    <div id="contact" class="container py-5">
+      <div class="row align-items-center">
+        <div class="col-md-6 col-sm-12 text-center">
+          <img src="images/code.jpg" alt="Laptop and Code" class="img-fluid rounded shadow">
+        </div>
+        <div class="col-md-6 col-sm-12 py-3 text-white text-center">
+          <h1 class="fs-1"><strong>My Contact</strong></h1>
+          <p class="fs-4">
+            Email: <a href="mailto:uggarg1234@gmail.com" class="text-white">uggarg1234@gmail.com</a>
+          </p>
+          <p class="fs-4">
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/uday-garg-8bb991272/" target="_blank" class="text-info">
+              Visit Profile
+            </a>
+          </p>
+          <p class="fs-4">
+            YouTube:
+            <a href="https://www.youtube.com/@CodeWizUG" target="_blank" class="text-danger">
+              Visit Channel
+            </a>
+          </p>
+          <p class="fs-4">
+            Download Resume:
+            <a href="resume.pdf" download class="text-danger">
+              Click to Download
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid py-4" style="background-color: #0f4698;">
+    <div class="container">
+      <div class="row text-center text-white">
+        <div class="col-12">
+          <h3><strong>Uday Garg</strong></h3>
+
+          <p class="mb-1">
+            📧 Uggarg1234@gmail.com &nbsp;|&nbsp; 📞 +91 8307922109
+          </p>
+
+          <p class="mb-3">
+            <a href="https://www.linkedin.com/in/uday-garg-8bb991272/" class="text-white mx-2" target="_blank"
+              style="text-decoration: none;">
+              <i class="fab fa-linkedin fa-xl" style="vertical-align: middle;"></i>
+            </a>
+
+            <a href="https://leetcode.com/u/UdayGarg_25/" class="text-white mx-2" target="_blank"
+              style="text-decoration: none;">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode"
+                style="height: 26px; vertical-align: middle;">
+            </a>
+
+            <a href="https://www.instagram.com/codewizug?igsh=eWdkcHB2OXV2aXB1" class="text-white mx-2" target="_blank"
+              style="text-decoration: none;">
+              <i class="fab fa-instagram fa-xl" style="vertical-align: middle;"></i>
+            </a>
+          </p>
+
+          <p class="mb-2">
+            Open to opportunities — Let's connect and create together 🚀
+          </p>
+
+          <p class="mb-0">
+            &copy; 2025 Uday Garg. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- Local JS file -->
+  <script src="script.js"></script>
+
+  <!-- External JS files should go just before closing </body> -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
+</body>
+
+</html>
