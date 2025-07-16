@@ -1,0 +1,68 @@
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+    .btn-outer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        left: 0px;
+        background-color: white;
+        padding: 5px 0px;
+        justify-content: center !important;
+    }
+    .whatsappbtn ,.callus {
+        padding: 7px 14px;
+        font-size: 14px;
+    }
+    .bannerContent h1{
+        font-size: 28px;
+        line-height: 33px;
+        text-align: center;
+        font-weight: 700;
+    }
+    .bannerContent br {
+        display: none;
+    }
+    .bannerContent p {
+        /* margin-top: 8px; */
+        font-size: 16px;
+    }
+    .bannerContent ul li {
+        font-size: 14px;
+    }
+    .bannerContentBtn {
+        flex-direction: column;
+    }
+    .bannerContentBtn button {
+        width: 100%;
+    }
+    .bannerForm {
+        padding: 20px;
+    }
+    .highlights-section h2 {
+        font-size: 28px;
+    }
+    
+    .section3 h2 {
+        font-size: 30px;
+    }
+    
+    .freeButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .freeButton button {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1170px;
+    }
+}
+
+@media (max-width: 972px) {
+    .students-item {
+        flex-wrap: wrap;
+    }
+}

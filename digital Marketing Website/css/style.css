@@ -1,0 +1,228 @@
+* {
+    font-family: "Inter", serif;
+}
+
+.whatsappbtn {
+    border: 1px solid #27AE60;
+    padding: 10px 18px;
+    color: #27AE60;
+    font-size: 16px;
+}
+
+.whatsappbtn:hover {
+    border: 1px solid #27AE60;
+}
+.callus {
+    background:linear-gradient(to right, #0ACEFE,#2699FB);
+    padding: 10px 18px;
+    color: white;
+    font-size: 16px;
+}
+.callus:hover {
+    background-color: #0ACEFE;
+}
+
+.bannerContent h1{
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.bannerContent h1 span {
+    color: #2699FB;
+    background: url(../images/border.png) no-repeat bottom;
+}
+
+.bannerContent p {
+    font-size: 22px;
+}
+
+.bannerContent ul li{
+    list-style: none;
+    font-size: 22px;
+}
+
+.bannerContent ul li i {
+    color: #2699FB;
+}
+
+.bannerContentBtn button{
+    width: 50%;
+    padding: 10px 0px;
+    border-radius: 7px;
+}
+
+.bannerContentBtn button:first-child {
+    background: linear-gradient(to right,#0ACEFE,#2699FB);
+    color: white;
+}
+
+.bannerForm {
+    padding: 40px;
+}
+
+.bannerForm h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.bannerForm button {
+    width: 100%;
+    padding: 10px 0px;
+    background: linear-gradient(to right,#0ACEFE,#2699FB);
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.counterSection h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #2699FB;
+}
+
+.highlights-section {
+    background-color: #F7FAFF;
+}
+
+.highlights-section h2 {
+    color: #0A2134;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.highlights-section p {
+    font-size: 18px;
+}
+
+.highlightItems h4 {
+    font-size: 20px;
+    color: #0A2134;
+    font-weight: 600;
+}
+
+.highlightItems p {
+    font-size: 15px;
+}
+
+.bookButton button {
+    background: linear-gradient(to right , #0ACEFE,#2699FB);
+    padding: 16px 48px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#navbarNav ul li a {
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.section3 h2{
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.section3Border {
+    border-radius: 8px;
+    width: 270px;
+}
+
+.getCertified {
+    border-radius: 10px;
+}
+
+.certified h3{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.freeButton {
+    margin-top: 20px;
+}
+.freeButton button {
+    padding: 10px 18px;
+    background: linear-gradient(to right, #0ACEFE,#2699FB);
+    font-size: 20px;
+}
+
+.tabContent ul {
+    list-style: none;
+}
+
+.tabContent ul li i{
+    color: #2699FB;
+}
+
+.tabMySystem .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #F2F4F7;
+    color: black;
+    border-bottom: 2px solid #2699FB;
+    border-radius: 0px;
+}
+
+.learnClass {
+    width: 360px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.learnClass p {
+    font-size: 16px;
+}
+
+.learnBTN {
+    display: flex;
+    justify-content: center;
+}
+.learnBTN button {
+    background: linear-gradient(to right, #0ACEFE,#2699FB);
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.students-item {
+    /* display: flex; */
+    flex-wrap: nowrap;
+}
+
+.course {
+    margin-top: 20px;
+    color: #F2F4F7;
+    padding: 30px 10px;
+    background: url(../images/image\ 145.png) left center no-repeat, 
+    url(../images/image\ 146.png) right center no-repeat,
+    linear-gradient(to right, #1e90ff, #33a6ff);    border-radius: 10px;
+}
+
+.course button {
+    color: black;
+    background-color: #FFFFFF;
+    border: none;
+    padding: 6px 16px;
+    font-size: large;
+    border-radius: 6px;
+}
+
+.footerClass {
+    background-color: #0A2540;
+}
+
+.footerClass img {
+    width: 165.82px;
+    height: 60px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.footerClass p {
+    color: #F2F4F7;
+}
+
+.footerClass hr {
+    border: 1px solid #FFFFFF;
+}
+
+.lastSec img {
+    max-width: 100%;
+    width: auto;
+}
